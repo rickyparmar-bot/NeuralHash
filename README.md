@@ -1,25 +1,19 @@
-# NeuralHash: Cryptography via Deep Learning 🧠🔐
+# 🧠 NeuralHash: Cryptographic Neural Dynamics
 
-NeuralHash is an experimental cryptographic hashing algorithm that utilizes the non-linear, chaotic properties of an untrained Deep Neural Network to generate secure file fingerprints.
+NeuralHash is an experimental cryptographic hashing algorithm that utilizes the non-linear, chaotic properties of untrained Deep Neural Networks to generate secure, one-way file fingerprints.
 
-## 🚀 Concept
-Traditional hashing algorithms (like SHA-256) are built on discrete mathematics and bitwise operations. NeuralHash explores a different path: **Mathematical Chaos in Continuous Space.**
+## 🚀 The Concept: Deterministic Chaos
+NeuralHash explores the use of **Mathematical Chaos** in continuous space as a substitute for traditional discrete bitwise operations used in algorithms like SHA-256.
 
-By passing data through a deep architecture of fixed, random weights, we create a high-dimensional "scrambling" effect. Because the network is initialized with a deterministic seed, it remains a pure function—the same input always produces the same output—but the relationship between the two is computationally irreducible.
+### 🛠️ Key Technical Features
+- **Deep Architecture:** Utilizes a 5-layer fully connected network built from scratch in NumPy. The network is never "trained"—the weights are fixed upon initialization.
+- **Irreducible Random Projections:** By passing data through a high-dimensional space of random weights, the algorithm creates a "scrambling" effect that is computationally irreducible.
+- **The Avalanche Effect:** Optimized to ensure high **Entropy**. A single bit change in the input causes a chaotic cascade, resulting in a completely different 256-bit fingerprint.
+- **Zero-Library Neural Logic:** Implements matrix calculus, weights, and non-linear activation functions (ReLU/Sigmoid) manually, without the help of PyTorch or TensorFlow.
+- **Xavier Initialization:** Uses deterministic seeding to ensure that the "chaos" is identical across different machines, maintaining the core requirement of a hashing function.
 
-### Key Features:
-*   **Deep Architecture:** 5-layer fully connected network built from scratch in NumPy.
-*   **Avalanche Effect:** Optimized to ensure that a single bit change in input results in a complete cascade of changes in the output hash.
-*   **Zero-Library Dependencies:** Implements all matrix calculus and activations manually, proving the fundamental principles of AI.
-*   **Deterministic Weights:** Uses Xavier initialization with a fixed seed to ensure cross-platform consistency.
-
-## 🧪 Results
-In empirical testing, changing 1 byte of a string resulted in a **100% change** in the hex fingerprint, demonstrating extreme sensitivity to initial conditions (The Butterfly Effect).
-
-## 🛠️ Tech Stack
-*   **Language:** Python 3.x
-*   **Engine:** NumPy (Manual Matrix Calculus)
-*   **Theory:** Deep Random Projections, Non-linear Dynamics.
+## 📊 Results
+In empirical testing, NeuralHash demonstrates extreme sensitivity to initial conditions (The Butterfly Effect), making it an effective tool for detecting even the smallest data modifications.
 
 ---
-*Developed for the MIT Maker Portfolio 2026. Bridging the gap between Machine Learning and Information Security.*
+*Part of the MIT Maker Portfolio 2026. Bridging the gap between Machine Learning and Information Security.* 🧠🔐
