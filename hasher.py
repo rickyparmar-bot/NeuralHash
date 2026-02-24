@@ -48,8 +48,8 @@ class NeuralHasher:
 if __name__ == "__main__":
     nh = NeuralHasher()
     
-    msg1 = "MIT Admissions 2026"
-    msg2 = "MIT Admissions 2027"
+    msg1 = "HELLO WORLD 1"
+    msg2 = "HELLO WORLD 2"
     
     h1 = nh.compute_hash(msg1)
     h2 = nh.compute_hash(msg2)

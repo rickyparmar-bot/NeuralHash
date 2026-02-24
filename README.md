@@ -18,7 +18,7 @@ Traditional hashing relies on bitwise shuffling. NeuralHash relies on **High-Dim
 ## 💻 Benchmarking & Usage
 ### Calculate a Hash
 ```bash
-python3 hasher.py "MIT 2026 Maker Portfolio"
+python3 hasher.py "HELLO WORLD"
 ```
 
 ### Run Collision Test
