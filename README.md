@@ -44,4 +44,3 @@ NeuralHash/
 - [ ] **Entropy Mapping:** Mathematical proof of collision resistance.
 
 ---
-*Developed for the MIT Maker Portfolio 2026.* 🧠🔐
